@@ -1,0 +1,22 @@
+Después de resolver la guía, me decidí por el ejercicio 22 porque me pareció uno de los más completos y también uno de los que más me hacía pensar ya que al principio tuve el error de querer primero organizarlo todo mentalmente y después empezar a hacer el código en base a eso y no podía organizarlo de manera coherente en mi cabeza. 
+
+En este caso, el ejercicio trata sobre una fábrica de caramelos que tiene que arrancar con un presupuesto y cubrir ciertos costos, como el alquiler, el costo de producir cada caramelo y un mantenimiento que se aplica cada 100 caramelos producidos. Con esos datos, el programa tiene que calcular si el presupuesto alcanza o si hace falta pedir un crédito. Por lo que en un principio se me complicó cómo organizarlo ya que intenté hacerlo mentalmente y al tener distintos tipos de costos que cumplen con diferentes características, es decir, en este caso algunos se suman siempre (como el alquiler), otros dependen de cuántos caramelos se producen (lo que sería el costo unitario) y otros aparecen cada cierta cantidad (que sería el mantenimiento cada 100 caramelos) se me complicó en un principio el tema de la organización, hasta que lo plasmé todo en papel y ahí ya sí se me hizo todo mucho mas visual y pude resolverlo más fácil ya que lo fui desarmando por cada una de esas partes y después pasarlo a código fue mucho más fácil. 
+
+
+
+En un principio lo hábia hecho de esa manera, pero ahora al haberlo elegido para el Trabajo Práctico y haber visto devuelta el código me doy cuenta de que se puede acortar bastante el código. Ya que  al principio resolví el ejercicio con una estructura muy larga. Usé un if para cuando había más de 100 caramelos y otro else para menos, y dentro de cada uno repetí muchas líneas de código. 
+
+
+Todo esto: cambialo y redactalo más coloquial, como lo anterior que puse, vos lo pusiste muy estructurado:
+
+entendí que si dividís un número entero por otro entero, el resultado también es entero, y eso me sirvió para calcular cuántos bloques de mantenimiento había sin necesidad de usar if ni más condiciones:
+
+cpp
+Copiar
+Editar
+float costoMantenimiento = (cant_car_prod / 100) * 5000;
+Esta línea ya se encarga de todo: si no llegás a 100, el mantenimiento es 0. Si producís 250 caramelos, la división da 2 y pagás 2 bloques de mantenimiento. Así de simple.
+
+Además, eso me permitió dejar el resto del código mucho más limpio, más fácil de leer y más directo.
+
+Este tipo de ejercicios no solo te hacen practicar código, también te enseñan a pensar con lógica y a escribir de forma más eficiente, que es algo muy valorado cuando uno trabaja en equipo o quiere que otro pueda leer y entender el programa sin perderse. Es un ejercicio que parece sencillo, pero tiene muchas capas

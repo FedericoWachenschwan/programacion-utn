@@ -1,0 +1,131 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram name="Página-1" id="-k9UrbiQdc-C1NfnEiHO">
+    <mxGraphModel dx="2105" dy="1500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="CTF9fH2aNS9ik4lJ055O-1" target="CTF9fH2aNS9ik4lJ055O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-1" value="ventas = 0, articuloMenorPromedio, acumTotalArticuloVendido;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223" y="123" width="387" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-3" value="menorPromedio. promedioGnanaciaArticulo = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223" y="183" width="387" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CTF9fH2aNS9ik4lJ055O-5" target="CTF9fH2aNS9ik4lJ055O-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-5" value="E) Variables declaradas como enteras" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="123" width="138" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CTF9fH2aNS9ik4lJ055O-7" target="CTF9fH2aNS9ik4lJ055O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-7" value="E) Variables declaradas como flotantes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="183" width="138" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-9" value="acumTotalArticuloVendido = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227" y="271" width="387" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CTF9fH2aNS9ik4lJ055O-10" target="CTF9fH2aNS9ik4lJ055O-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-10" value="E) Acumulador que usaríamos para resetear el acumulador de las ventas de un mismo artículo para después poder realizar el promedio. (Lo ubicaríamos por fuera del While interno, es decir dentro del While externo)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="270" width="266" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-12" value="acumTotalArticuloVendido += cantDeArticulosVendidos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227" y="379" width="387" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CTF9fH2aNS9ik4lJ055O-13" target="CTF9fH2aNS9ik4lJ055O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-13" value="E) Acumulador del total de cada venta de artículos vendidos para hacer la cuenta del promedio, que iría ubicado en el While interno" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="379" width="266" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-15" value="promedioGananciaArticulo = acumGanancia / acumTotalArticuloVendido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227" y="491" width="387" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CTF9fH2aNS9ik4lJ055O-16" target="CTF9fH2aNS9ik4lJ055O-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-16" value="E) Cuenta necesaria para obtener el promedio de la ganancia de cada articulo (ubicado por fuera del While interno)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="491" width="266" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" source="CTF9fH2aNS9ik4lJ055O-20" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301" y="689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="719" y="758" as="targetPoint" />
+            <mxPoint x="460" y="638" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-20" value="ventas == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="599" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-21" value="V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="301" y="599" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-22" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="481" y="599" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-23" value="ventas ++&lt;br&gt;menorpromedio = promedioGananciaArticulo&lt;br&gt;articuloMenorPromedio = articuloActual" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="689" width="294" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-24" value="menorpromedio = promedioGananciaArticulo&lt;br&gt;articuloMenorPromedio = articuloActual" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="888" width="294" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" source="CTF9fH2aNS9ik4lJ055O-27" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="888" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-27" value="promedioGananciaArticulo &amp;lt; menorPromedio" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568" y="755" width="301" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-28" value="V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-29" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="767" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1074" y="1033" as="targetPoint" />
+            <mxPoint x="869" y="796" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="492" y="1031" as="sourcePoint" />
+            <mxPoint x="1073" y="1031" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.471;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CTF9fH2aNS9ik4lJ055O-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="1042" as="sourcePoint" />
+            <mxPoint x="545" y="992" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="855" as="sourcePoint" />
+            <mxPoint x="294" y="763" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292" y="857" as="sourcePoint" />
+            <mxPoint x="484.4814814814815" y="857" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTF9fH2aNS9ik4lJ055O-36" value="E) Condicionales necesarios para saber cual fue el menor promedio y la bandera para asignar como menorpromedio y menor articulo promedio al articulo ingresado luego de haber una primera venta y poderlo comparar posteriormente con el otro condicional" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="631" width="391" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

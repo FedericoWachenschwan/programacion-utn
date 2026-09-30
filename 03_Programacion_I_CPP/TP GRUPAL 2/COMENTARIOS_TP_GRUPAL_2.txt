@@ -1,0 +1,7 @@
+a) 
+
+Buenísimo el arranque. Para el punto a), se me ocurre que lo podemos ir pensando así: dentro del while interno, iría sumando en un acumulador la ganancia de cada venta de un artículo (por ejemplo acumGanancia), calculada con la diferencia entre precio de venta y costo multiplicado por la cantidad vendida.
+
+Después, al salir de ese while (pero todavía dentro del externo), haría un condicional para comparar si el total acumulado de ese artículo es mayor que el máximo guardado hasta el momento. En ese caso actualizaría tanto la variable del máximo (gananciaMax) como el número del artículo que lo logró (articuloGananciaMax).
+
+De esa forma, cada vez que se termina de recorrer un artículo completo, ya queda guardado si fue el que más recaudó hasta ahora.

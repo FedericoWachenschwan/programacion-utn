@@ -1,0 +1,181 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram name="Página-1" id="roibGEh82NBnQ0SrPK5A">
+    <mxGraphModel dx="1716" dy="1402" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-aj2crV-PwE5wizHW3sy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="_SaoUzziCHYSZdBnUg-K-1" target="FD5dygLn9AHxLPiek1eu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-1" value="I" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-2" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;pointerEvents=0;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=none;size=20;flipV=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="460" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-3" value="dia, cantDeArtVendidos, artActual, pC, pV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="256" y="460" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-13" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-119" y="300" as="sourcePoint" />
+            <mxPoint x="841" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-14" value="numArt != 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="297.5" y="260" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-15" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;numArt = artActual&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="339" width="182" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-46" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="898" as="sourcePoint" />
+            <mxPoint x="840" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-133" y="898" as="sourcePoint" />
+            <mxPoint x="845" y="898" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-71" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-52" y="436" as="sourcePoint" />
+            <mxPoint x="774" y="436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-72" value="numArt == articuloActual" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="272" y="408" width="241" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-77" value="F" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="356" y="1070" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-81" value="numArt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="345" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_SaoUzziCHYSZdBnUg-K-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="377.4999999999998" y="250" as="targetPoint" />
+            <mxPoint x="377.5454545454545" y="209.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-2" value="&lt;span style=&quot;box-sizing: border-box; color: rgb(73, 80, 87); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1759775703775_38348&quot;&gt;&lt;b&gt;acTotalVentas = 0&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="203.5" y="70" width="363" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-55" y="403" as="sourcePoint" />
+            <mxPoint x="774" y="403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-141" y="253" as="sourcePoint" />
+            <mxPoint x="843" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-23" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-135" y="896" as="sourcePoint" />
+            <mxPoint x="-139" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-24" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-56" y="856" as="sourcePoint" />
+            <mxPoint x="-55" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-25" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="783" y="853" as="sourcePoint" />
+            <mxPoint x="776" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-26" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="857" as="sourcePoint" />
+            <mxPoint x="-58" y="857" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD5dygLn9AHxLPiek1eu-29" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;pointerEvents=0;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;size=20;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="175" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFujQ1oFs6Izk5gL-yf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="cTFujQ1oFs6Izk5gL-yf-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="261" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFujQ1oFs6Izk5gL-yf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="cTFujQ1oFs6Izk5gL-yf-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="501" y="784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFujQ1oFs6Izk5gL-yf-3" value="dia &amp;gt;= 1 &amp;amp;&amp;amp; dia &amp;lt;= 7" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="341" y="594" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFujQ1oFs6Izk5gL-yf-4" value="V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="261" y="594" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFujQ1oFs6Izk5gL-yf-5" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="441" y="594" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFujQ1oFs6Izk5gL-yf-6" value="&lt;span style=&quot;box-sizing: border-box; font-weight: bolder; color: rgb(73, 80, 87); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1759775703775_5310&quot;&gt;acTotalVentas += cantDeArticulosVendidos&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="225" y="527" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFujQ1oFs6Izk5gL-yf-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-142" y="300" as="sourcePoint" />
+            <mxPoint x="841" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-1" value="acVentasPrimeraSemana += cantDeArticulosVendidos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="684" width="304" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="261" y="783" as="sourcePoint" />
+            <mxPoint x="501" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="261" y="783" as="sourcePoint" />
+            <mxPoint x="261" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#495057&quot;&gt;&lt;b&gt;acVentasPrimeraSemana = 0&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199.5" y="120" width="363" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.508;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="FD5dygLn9AHxLPiek1eu-2" target="-aj2crV-PwE5wizHW3sy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.476;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="-aj2crV-PwE5wizHW3sy-4" target="FD5dygLn9AHxLPiek1eu-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="-aj2crV-PwE5wizHW3sy-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="381.0000000000002" y="905.8148261176216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-10" value="pctjVentasPrimeraSemana = (acVentasPrimeraSemana * 100) / acTotalVentas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="116" y="916" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="-aj2crV-PwE5wizHW3sy-14" target="-aj2crV-PwE5wizHW3sy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-14" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;pointerEvents=0;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;size=20;" vertex="1" parent="1">
+          <mxGeometry x="75" y="989" width="612" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-15" value="&quot;El porcentaje de ventas para la primera semana del mes es de un &quot; pctjVentasPrimeraSemana &quot;%&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="96.5" y="995" width="548" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-aj2crV-PwE5wizHW3sy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=0.897;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="_SaoUzziCHYSZdBnUg-K-77" target="-aj2crV-PwE5wizHW3sy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

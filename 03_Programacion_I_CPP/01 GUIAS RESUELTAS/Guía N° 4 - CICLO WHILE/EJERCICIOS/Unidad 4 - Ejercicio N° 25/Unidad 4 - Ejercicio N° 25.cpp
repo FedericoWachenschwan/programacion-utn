@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+/* 25 El festival Larapalooza, el mejor festival musical del mundo, brindará una serie
+de conciertos distribuidos en tres jornadas distintas. Se desea un programa que
+registre los artistas que participarán. Por cada artista se registró: - - - -
+Número de artista (entero)
+Integrantes (entero)
+Jornada (1, 2 o 3)
+Duración del show en minutos (entero)
+La información no se encuentra ordenada bajo ningún criterio. La carga de
+datos se finaliza con un número de artista igual a cero. Calcular e informar: - - - -
+El número de artista que realice el show más largo de la jornada 1.
+La cantidad de solistas (artistas de 1 integrante) que participaron en
+cada una de las jornadas. (se muestran tres resultados).
+La jornada más extensa (en minutos totales).
+Duración promedio de show por artista (se muestra un resultado). */
+
+int main(){
+
+    int numeroDeArtista, integrantes, duracionDelShow;
+    char jornada;
+
+    cout
+    while (numeroDeArtista != 0){
+
+    }
+
+system("pause");
+   return 0;
+}

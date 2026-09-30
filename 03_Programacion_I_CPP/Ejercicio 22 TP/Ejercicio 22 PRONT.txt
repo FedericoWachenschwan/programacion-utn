@@ -1,0 +1,9 @@
+Contexto: tenés que hacer un trabajo grupal en el que te piden que elijas un ejercicio de la guía que te pasé en PDF. Tenés que sacarte un 10, así que elegí el más desafiante, en este caso el 22 y explicá el porqué elegiste ese ejercicio y por qué te pareció el más desafiante y también decí que te hizo aprender a reducir código ya que al principio lo habías hecho de esta manera:
+
+
+XXXXXXXXXXX
+
+
+
+y luego al haberlo hecho de esta otra, notaste cómo pudiste disminuir código haciendo un buen uso del uso de las variables de tipo entero y float:
+
