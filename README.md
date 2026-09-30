@@ -1,6 +1,6 @@
 # Programación · UTN
 
-Trabajos prácticos, proyectos y ejercicios de la **Tecnicatura Universitaria en Programación** (UTN), en **C++** y **C#**.
+Trabajos prácticos, proyectos y ejercicios de la **Tecnicatura Universitaria en Programación** (UTN), en **C++** y **C#**: 165 programas y más de 11.800 líneas de código, todos compilados y ejecutados.
 
 ## Proyectos destacados
 
